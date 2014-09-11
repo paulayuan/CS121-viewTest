@@ -19,6 +19,7 @@
 		8CA6809F19C1314B00B944CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA6808719C1314A00B944CE /* UIKit.framework */; };
 		8CA680A719C1314B00B944CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CA680A519C1314B00B944CE /* InfoPlist.strings */; };
 		8CA680A919C1314B00B944CE /* viewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA680A819C1314B00B944CE /* viewTestTests.m */; };
+		8CA680B419C131E800B944CE /* PYSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA680B319C131E800B944CE /* PYSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		8CA680A419C1314B00B944CE /* viewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTestTests-Info.plist"; sourceTree = "<group>"; };
 		8CA680A619C1314B00B944CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8CA680A819C1314B00B944CE /* viewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTestTests.m; sourceTree = "<group>"; };
+		8CA680B219C131E800B944CE /* PYSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSimpleView.h; sourceTree = "<group>"; };
+		8CA680B319C131E800B944CE /* PYSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				8CA6809219C1314A00B944CE /* PYAppDelegate.h */,
 				8CA6809319C1314A00B944CE /* PYAppDelegate.m */,
+				8CA680B219C131E800B944CE /* PYSimpleView.h */,
+				8CA680B319C131E800B944CE /* PYSimpleView.m */,
 				8CA6809519C1314A00B944CE /* Images.xcassets */,
 				8CA6808A19C1314A00B944CE /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA680B419C131E800B944CE /* PYSimpleView.m in Sources */,
 				8CA6809019C1314A00B944CE /* main.m in Sources */,
 				8CA6809419C1314A00B944CE /* PYAppDelegate.m in Sources */,
 			);
